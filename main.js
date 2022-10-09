@@ -1,6 +1,6 @@
 async function getWeather(city) {
     const API_key = "1195410e4ae2d05ce024d37aa18407de";
-    const url = "http://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+API_key;
+    const url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid="+API_key;
     console.log(url);
     const response = await axios.get(url).catch(async(error) =>{
         console.log(error.toJSON());
