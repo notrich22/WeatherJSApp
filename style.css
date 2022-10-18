@@ -5,13 +5,19 @@
   }
 
 /* Content Panel */
-
+html {
+    background-image: url(./pexels-pixabay-height.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 .contentPanel {
     height: 100vh;
     position: relative;
-    background-color: rgb(235, 235, 235);
-    background-image: url(pexels-pixabay-height.jpg);
-    background-size: cover;
 }
 
 .gridContainer {
